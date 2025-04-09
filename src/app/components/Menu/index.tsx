@@ -1,13 +1,31 @@
-import Link from "next/link";
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export function Menu() {
+  const pathname = usePathname();
+  const menuLinks = [
+    { href: '/quemsomos', label: 'Quem somos' },
+    { href: '/socios', label: 'Sócios' },
+    { href: '/especialidades', label: 'Áreas de especialidade' },
+    { href: '/contato', label: 'Contato' },
+  ];
   return (
     <nav>
       <ul>
-        <Link href="/quemsomos"><li>Quem somos</li></Link>
-        <Link href="/socios"><li>Sócios</li></Link>
-        <Link href="/especialidades"><li>Áreas de especialidade</li></Link>
-        <Link href="/contato"><li>Contato</li></Link>
+        {menuLinks.map((link) => {
+          const isActive = pathname === link.href;
+          return (
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                className={isActive ? 'text-amber-500' : 'text-black'}
+              >
+                {link.label}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

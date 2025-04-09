@@ -32,14 +32,14 @@ export default function RootLayout({
       >
         <div className='container mx-auto flex h-screen flex-col justify-between bg-amber-100'>
           <div className='mt-25 flex h-full w-full flex-col gap-10'>
-            <div className='w-2/7'>
+            <div className='ml-15 hidden w-2/7 sm:block'>
               <Logo />
             </div>
             <div className='flex w-full gap-10'>
-              <div className='w-2/7'>
+              <div className='ml-15 hidden w-2/7 sm:block'>
                 <Menu />
               </div>
-              <div className='w-5/7'>{children}</div>
+              <div className='mr-15 ml-15 w-5/7 sm:mr-0'>{children}</div>
             </div>
           </div>
           <Footer />
