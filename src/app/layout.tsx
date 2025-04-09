@@ -31,14 +31,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className='container mx-auto flex h-screen flex-col justify-between bg-amber-100'>
-          <div className='grid grid-cols-12 grid-rows-2'>
-            <div className='col-span-3 col-start-1 row-start-1'>
+          <div className='mt-25 flex h-full w-full flex-col gap-10'>
+            <div className='w-2/7'>
               <Logo />
             </div>
-            <div className='col-span-3 col-start-1 row-start-2'>
-              <Menu />
+            <div className='flex w-full gap-10'>
+              <div className='w-2/7'>
+                <Menu />
+              </div>
+              <div className='w-5/7'>{children}</div>
             </div>
-            <div className='col-span-8 col-start-5 row-start-2'>{children}</div>
           </div>
           <Footer />
         </div>
