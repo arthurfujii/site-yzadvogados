@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import clsx from 'clsx';
 
 export function Menu() {
   const pathname = usePathname();
@@ -19,7 +20,10 @@ export function Menu() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className={isActive ? 'text-amber-500' : 'text-black'}
+                className={clsx('font-serif text-xl', {
+                  ['text-[var(--primary)']: isActive,
+                  ['text-[var(--quaternary)]']: !isActive,
+                })}
               >
                 {link.label}
               </Link>

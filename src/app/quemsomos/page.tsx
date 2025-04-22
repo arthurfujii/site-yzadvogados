@@ -3,21 +3,19 @@ export default function QuemSomos() {
     <div>
       <h1 className='sm:hidden'>Quem somos</h1>
       <p>
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus pellentesque
-        a eu vivamus rhoncus sapien. Malesuada pellentesque montes lectus
-        vulputate habitasse varius non. Ante pharetra etiam aliquam curae hac
-        auctor purus. Aliquet ornare fringilla phasellus aliquam congue sem.
-        Netus ullamcorper ut habitant; non commodo vulputate. Diam senectus
-        vivamus erat, amet fames rutrum fringilla natoque integer. Et mattis
-        montes parturient porttitor phasellus non velit.
+        Yen Zanetti Advogados é um escritório full service, com forte atuação
+        nas áreas empresarial, societária, cível, imobiliária, compliance e
+        regulatória.
       </p>
+
       <p>
-        Dolor massa non faucibus; hendrerit viverra hac. Eleifend etiam quam
-        aliquet elementum erat ut. Ut fermentum ante phasellus eros scelerisque
-        nec. Himenaeos aliquam fringilla in dapibus; nullam varius. Blandit
-        malesuada felis libero a lacus vitae sem augue consectetur. Sollicitudin
-        tempus velit nullam ipsum eros elit pulvinar a. Pharetra quisque
-        sagittis montes feugiat accumsan pretium congue.
+        Nosso propósito é oferecer soluções jurídicas personalizadas, com ênfase
+        na compreensão profunda do negócio de cada cliente.
+      </p>
+
+      <p>
+        Primamos por um atendimento próximo, ágil, transparente, objetivo e
+        pautado na confiança.
       </p>
     </div>
   );

@@ -1,26 +1,47 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --primary: #171717;
+  --secondary: #707070;
+  --tertiary: #999999;
+  --quaternary: #bbbbbb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-lato);
+  --font-serif: 'waters-titling-pro';
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary);
+  font-size: 16px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  h1 {
+    font-family: 'waters-titling-pro', Georgia, serif;
+    color: var(--primary);
+    font-size: 2rem;
+  }
+  h2 {
+    font-family: 'waters-titling-pro', Georgia, serif;
+    color: var(--primary);
+    font-size: 1.5rem;
+  }
+  small {
+    color: var(--quaternary);
+    font-size: 0.8rem;
+  }
 }
