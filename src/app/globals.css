@@ -40,8 +40,32 @@ body {
     color: var(--primary);
     font-size: 1.5rem;
   }
+  h3 {
+    font-family: 'waters-titling-pro', Georgia, serif;
+    color: var(--primary);
+    font-size: 1.25rem;
+  }
   small {
     color: var(--quaternary);
     font-size: 0.8rem;
   }
+}
+
+.navMenu {
+  pointer-events: auto;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  transition: left 0.7s ease-in-out;
+}
+
+.navMenu[data-active='true'] {
+  left: 0;
+}
+
+.navMenu[data-active='false'] {
+  left: 100%;
 }

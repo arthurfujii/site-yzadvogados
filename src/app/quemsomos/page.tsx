@@ -1,7 +1,7 @@
 export default function QuemSomos() {
   return (
     <div>
-      <h1 className='sm:hidden'>Quem somos</h1>
+      <h1 className='pb-10 sm:hidden'>Quem somos</h1>
       <p>
         Yen Zanetti Advogados é um escritório full service, com forte atuação
         nas áreas empresarial, societária, cível, imobiliária, compliance e

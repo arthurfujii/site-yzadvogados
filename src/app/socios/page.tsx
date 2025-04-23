@@ -5,8 +5,8 @@ import fotoZanetti from '../../../public/_UX_0406pb.jpg';
 export default function Socios() {
   return (
     <div>
-      <h1 className='sm:hidden'>Sócios</h1>
-      <div className='flex flex-col gap-10'>
+      <h1 className='pb-10 sm:hidden'>Sócios</h1>
+      <div className='flex flex-col gap-15'>
         <div className='flex flex-col gap-5 lg:flex-row'>
           <div className='lg:min-w-[250px]'>
             <Image src={fotoYen} alt='Foto Yen' className='h-auto w-full' />

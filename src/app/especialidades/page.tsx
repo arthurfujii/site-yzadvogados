@@ -34,7 +34,7 @@ export default function Especialidades() {
 
   return (
     <div>
-      <h1 className='sm:hidden'>Áreas de especialidade</h1>
+      <h1 className='pb-10 sm:hidden'>Áreas de especialidade</h1>
       <div className='flex flex-wrap gap-10'>
         {especialidades.map((especialidade) => {
           return (
