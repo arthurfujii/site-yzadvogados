@@ -24,10 +24,13 @@ export function Menu({
             <Link
               onClick={onClick}
               href={link.href}
-              className={clsx('font-serif text-xl', {
-                ['text-[var(--primary)']: isActive,
-                ['text-[var(--quaternary)]']: !isActive,
-              })}
+              className={clsx(
+                'font-serif text-xl hover:text-[var(--secondary)]',
+                {
+                  ['text-[var(--primary)']: isActive,
+                  ['text-[var(--quaternary)]']: !isActive,
+                },
+              )}
             >
               {link.label}
             </Link>

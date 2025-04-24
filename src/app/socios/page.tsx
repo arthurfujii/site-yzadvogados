@@ -50,9 +50,9 @@ export default function Socios() {
               className='h-auto w-full'
             />
           </div>
-          <div>
-            <h2 className='text-right'>César Zanetti</h2>
-            <p className='text-right'>
+          <div className='lg:text-right'>
+            <h2>César Zanetti</h2>
+            <p>
               Sócio de <strong>Yen Zanetti Advogados</strong>, César é graduado
               em Direito pela Universidade Presbiteriana Mackenzie e
               pós-graduado em Direito Empresarial pela Escola Paulista da
@@ -61,7 +61,7 @@ export default function Socios() {
               experiência consolidada tanto na consultoria quanto na condução de
               disputas complexas.
             </p>
-            <p className='text-right'>
+            <p>
               Antes de fundar o escritório, integrou o corpo técnico do Tribunal
               de Justiça de São Paulo, assessorando Juízes e Desembargadores na
               elaboração de sentenças e acórdãos nas áreas empresarial, cível,
@@ -69,7 +69,7 @@ export default function Socios() {
               multidisciplinar e aprofundada das interações entre os agentes
               econômicos e o Poder Judiciário.
             </p>
-            <p className='text-right'>
+            <p>
               É membro da Comissão de Contencioso Societário e Disputas de M&A
               do Ibrademp (Instituto Brasileiro de Direito Empresarial).
             </p>
