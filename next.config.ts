@@ -1,20 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
 };
 
-module.exports = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "placecats.com",
-        port: "",
-        search: "",
-      },
-    ],
-  },
-};
+module.exports = nextConfig;
 
 export default nextConfig;
