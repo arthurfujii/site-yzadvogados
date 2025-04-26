@@ -9,7 +9,7 @@ export function Logo() {
         <Image
           src={logo}
           alt='Yen Zanetti Advogados'
-          className='xl:max-w-[350px]'
+          className='xl:max-w-[230px]'
         />
       </Link>
     </div>

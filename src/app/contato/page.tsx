@@ -3,7 +3,7 @@ import icon_whatsapp from '../../../public/icon_whatsapp.svg';
 import icon_email from '../../../public/icon_email.svg';
 export default function Contato() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col text-[var(--secondary)]'>
       <h1 className='pb-10 sm:hidden'>Contato</h1>
       <div className='flex flex-col justify-around gap-8 lg:flex-row'>
         <div className='flex flex-col gap-8'>

@@ -20,12 +20,12 @@ export function Menu({
       {menuLinks.map((link) => {
         const isActive = pathname === link.href;
         return (
-          <li key={link.href} className='py-2'>
+          <li key={link.href} className='py-1'>
             <Link
               onClick={onClick}
               href={link.href}
               className={clsx(
-                'font-serif text-xl hover:text-[var(--secondary)]',
+                'font-serif text-lg hover:text-[var(--tertiary)]',
                 {
                   ['text-[var(--primary)']: isActive,
                   ['text-[var(--quaternary)]']: !isActive,

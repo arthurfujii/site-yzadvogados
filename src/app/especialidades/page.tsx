@@ -38,8 +38,11 @@ export default function Especialidades() {
       <div className='flex flex-wrap gap-10'>
         {especialidades.map((especialidade) => {
           return (
-            <div key={especialidade.id} className='w-2xs'>
-              <h2>{especialidade.titulo}</h2>
+            <div
+              key={especialidade.id}
+              className='max-w-[250px] text-[var(--secondary)]'
+            >
+              <h3>{especialidade.titulo}</h3>
               <p>{especialidade.descricao}</p>
             </div>
           );

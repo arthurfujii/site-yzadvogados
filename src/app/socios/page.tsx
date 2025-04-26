@@ -4,15 +4,15 @@ import fotoZanetti from '../../../public/_UX_0406pb.jpg';
 
 export default function Socios() {
   return (
-    <div>
+    <div className='text-[var(--secondary)]'>
       <h1 className='pb-10 sm:hidden'>Sócios</h1>
       <div className='flex flex-col gap-15'>
         <div className='flex flex-col gap-5 lg:flex-row'>
-          <div className='lg:min-w-[250px]'>
+          <div className='max-w-[350px] lg:min-w-[200px]'>
             <Image src={fotoYen} alt='Foto Yen' className='h-auto w-full' />
           </div>
           <div>
-            <h2>Elthon Yen</h2>
+            <h3>Elthon Yen</h3>
 
             <p>
               Lorem ipsum dolor sit amet. Ut soluta nemo in voluptates modi et
@@ -43,7 +43,7 @@ export default function Socios() {
           </div>
         </div>
         <div className='flex flex-col gap-5 lg:flex-row-reverse'>
-          <div className='lg:min-w-[250px]'>
+          <div className='max-w-[400px] lg:min-w-[200px]'>
             <Image
               src={fotoZanetti}
               alt='Foto Zanetti'
@@ -51,7 +51,7 @@ export default function Socios() {
             />
           </div>
           <div className='lg:text-right'>
-            <h2>César Zanetti</h2>
+            <h3>César Zanetti</h3>
             <p>
               Sócio de <strong>Yen Zanetti Advogados</strong>, César é graduado
               em Direito pela Universidade Presbiteriana Mackenzie e

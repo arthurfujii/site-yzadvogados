@@ -33,25 +33,21 @@ export default function RootLayout({
         />
         <link rel='stylesheet' href='https://use.typekit.net/dfa2brg.css' />
       </head>
-      <body className={`${lato.variable}`}>
-        <div className='w-full px-5 pt-10 sm:hidden'>
-          <Header />
-        </div>
-        <main className='-z-10'>
-          <div className='container mx-auto flex h-full flex-col justify-between px-10'>
-            <div className='mt-40 mb-25 flex h-full min-h-[800px] w-full flex-col gap-10'>
-              <div className='hidden w-2/7 sm:block'>
-                <Logo />
-              </div>
-              <div className='flex w-full gap-10'>
-                <div className='hidden w-2/7 sm:block'>
-                  <Menu />
-                </div>
-                <div className='mx-auto w-5/7 sm:mr-0'>{children}</div>
-              </div>
+      <body className={`${lato.variable} `}>
+        <Header />
+        <main className='-z-10 container mx-auto flex flex-col justify-between px-10 lg:px-20'>
+          <div className='mt-30 mb-25 flex h-full w-full flex-col gap-10 lg:min-h-[600px]'>
+            <div className='hidden w-2/7 sm:block'>
+              <Logo />
             </div>
-            <Footer />
+            <div className='flex w-full gap-20'>
+              <div className='hidden w-2/7 sm:block'>
+                <Menu />
+              </div>
+              <div className='mx-auto w-5/7 sm:mr-0 xl:pr-20'>{children}</div>
+            </div>
           </div>
+          <Footer />
         </main>
       </body>
     </html>
