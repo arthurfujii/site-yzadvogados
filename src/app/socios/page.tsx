@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import fotoYen from '../../../public/_UX_0721pb.jpg';
-import fotoZanetti from '../../../public/_UX_0406pb.jpg';
+import ExportedImage from 'next-image-export-optimizer';
+import fotoYen from '../../../public/images/_UX_0721pb.jpg';
+import fotoZanetti from '../../../public/images/_UX_0406pb.jpg';
 
 export default function Socios() {
   return (
@@ -9,7 +9,11 @@ export default function Socios() {
       <div className='flex flex-col gap-15'>
         <div className='flex flex-col gap-5 lg:flex-row'>
           <div className='max-w-[350px] lg:min-w-[200px]'>
-            <Image src={fotoYen} alt='Foto Yen' className='h-auto w-full' />
+            <ExportedImage
+              src={fotoYen}
+              alt='Foto Yen'
+              className='h-auto w-full'
+            />
           </div>
           <div>
             <h3>Elthon Yen</h3>
@@ -44,7 +48,7 @@ export default function Socios() {
         </div>
         <div className='flex flex-col gap-5 lg:flex-row-reverse'>
           <div className='max-w-[400px] lg:min-w-[200px]'>
-            <Image
+            <ExportedImage
               src={fotoZanetti}
               alt='Foto Zanetti'
               className='h-auto w-full'

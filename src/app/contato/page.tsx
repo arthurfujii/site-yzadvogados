@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import icon_whatsapp from '../../../public/icon_whatsapp.svg';
-import icon_email from '../../../public/icon_email.svg';
+import ExportedImage from 'next-image-export-optimizer';
+import icon_whatsapp from '../../../public/images/icon_whatsapp.svg';
+import icon_email from '../../../public/images/icon_email.svg';
 export default function Contato() {
   return (
     <div className='flex flex-col text-[var(--secondary)]'>
@@ -15,7 +15,11 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex gap-1'
             >
-              <Image src={icon_whatsapp} alt='WhatsApp icon' width={18} />
+              <ExportedImage
+                src={icon_whatsapp}
+                alt='WhatsApp icon'
+                width={18}
+              />
               <p>+55 11 97103-6823</p>
             </a>
             <a
@@ -24,7 +28,7 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex items-center gap-1'
             >
-              <Image src={icon_email} alt='E-mail icon' width={18} />
+              <ExportedImage src={icon_email} alt='E-mail icon' width={18} />
               <p>cesar@yzadvogados.com.br</p>
             </a>
           </div>
@@ -36,7 +40,11 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex gap-1'
             >
-              <Image src={icon_whatsapp} alt='WhatsApp icon' width={18} />
+              <ExportedImage
+                src={icon_whatsapp}
+                alt='WhatsApp icon'
+                width={18}
+              />
               <p>+55 11 98104-2665</p>
             </a>
             <a
@@ -45,7 +53,7 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex items-center gap-1'
             >
-              <Image src={icon_email} alt='E-mail icon' width={18} />
+              <ExportedImage src={icon_email} alt='E-mail icon' width={18} />
               <p>elthon@yzadvogados.com.br</p>
             </a>
           </div>

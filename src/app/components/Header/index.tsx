@@ -1,7 +1,7 @@
 'use client';
-import icon_menu from '../../../../public/icon_menu.svg';
-import icon_close from '../../../../public/icon_close.svg';
-import Image from 'next/image';
+import icon_menu from '../../../../public/images/icon_menu.svg';
+import icon_close from '../../../../public/images/icon_close.svg';
+import ExportedImage from 'next-image-export-optimizer';
 import React, { useState } from 'react';
 import { Logo } from '../Logo';
 import NavMenu from '../NavMenu';
@@ -22,14 +22,14 @@ const Header = () => {
           <Logo />
         </div>
         {isOpen ? (
-          <Image
+          <ExportedImage
             src={icon_close}
             alt='Menu icon'
             width={32}
             onClick={toggleMenu}
           />
         ) : (
-          <Image
+          <ExportedImage
             src={icon_menu}
             alt='Menu icon'
             width={32}
