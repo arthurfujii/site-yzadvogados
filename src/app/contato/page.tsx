@@ -18,6 +18,7 @@ export default function Contato() {
               <ExportedImage
                 src={icon_whatsapp}
                 alt='WhatsApp icon'
+                placeholder='empty'
                 width={18}
               />
               <p>+55 11 97103-6823</p>
@@ -28,7 +29,12 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex items-center gap-1'
             >
-              <ExportedImage src={icon_email} alt='E-mail icon' width={18} />
+              <ExportedImage
+                src={icon_email}
+                alt='E-mail icon'
+                placeholder='empty'
+                width={18}
+              />
               <p>cesar@yzadvogados.com.br</p>
             </a>
           </div>
@@ -43,6 +49,7 @@ export default function Contato() {
               <ExportedImage
                 src={icon_whatsapp}
                 alt='WhatsApp icon'
+                placeholder='empty'
                 width={18}
               />
               <p>+55 11 98104-2665</p>
@@ -53,7 +60,12 @@ export default function Contato() {
               rel='noopener noreferrer'
               className='flex items-center gap-1'
             >
-              <ExportedImage src={icon_email} alt='E-mail icon' width={18} />
+              <ExportedImage
+                src={icon_email}
+                alt='E-mail icon'
+                placeholder='empty'
+                width={18}
+              />
               <p>elthon@yzadvogados.com.br</p>
             </a>
           </div>

@@ -47,7 +47,7 @@ export default function Socios() {
           </div>
         </div>
         <div className='flex flex-col gap-5 lg:flex-row-reverse'>
-          <div className='max-w-[400px] lg:min-w-[200px]'>
+          <div className='max-w-[350px] lg:min-w-[200px]'>
             <ExportedImage
               src={fotoZanetti}
               alt='Foto Zanetti'

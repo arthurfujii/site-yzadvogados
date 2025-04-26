@@ -24,8 +24,9 @@ const Header = () => {
         {isOpen ? (
           <ExportedImage
             src={icon_close}
-            alt='Menu icon'
+            alt='Close icon'
             width={32}
+            placeholder='empty'
             onClick={toggleMenu}
           />
         ) : (
@@ -33,6 +34,7 @@ const Header = () => {
             src={icon_menu}
             alt='Menu icon'
             width={32}
+            placeholder='empty'
             onClick={toggleMenu}
           />
         )}
