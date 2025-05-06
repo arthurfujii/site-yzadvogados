@@ -19,30 +19,29 @@ export default function Socios() {
             <h3>Elthon Yen</h3>
 
             <p>
-              Lorem ipsum dolor sit amet. Ut soluta nemo in voluptates modi et
-              quam nulla qui incidunt illum et voluptas ipsam. Eum internos
-              quisquam et nostrum galisum hic quos minima et quod obcaecati et
-              dolor fuga cum magni neque. Est autem corrupti est obcaecati nihil
-              eos galisum dolor ut autem autem? Nam nemo saepe 33 distinctio
-              quasi et explicabo necessitatibus.
+              Sócio de <strong>Yen Zanetti Advogados</strong>. É mestre em
+              Direito Civil pela Universidade de São Paulo – USP (Faculdade de
+              Direito do Largo de São Francisco), onde também se graduou
+              bacharel.
             </p>
 
             <p>
-              Et mollitia distinctio quo nostrum galisum ut recusandae
-              consequatur aut reiciendis galisum et iste consequatur eum
-              temporibus autem est quae reiciendis. Hic dolor rerum ut dolores
-              possimus ut suscipit inventore? 33 consequatur inventore id
-              laudantium galisum a voluptate quos ea nihil recusandae et
-              molestiae omnis a doloremque laborum non nesciunt voluptatum.
+              Especialista na área de direito imobiliário, direito registral,
+              compliance, regulatório, direito digital e de tecnologia. Na área
+              empresarial, atua com ênfase em contratos, estruturando relações
+              comerciais com redes de fornecedores, clientes, parcerias
+              empresariais e distribuidores, bem como representando clientes em
+              negociações. Possui ampla experiência com resolução de conflitos
+              judiciais e extrajudiciais, entre particulares, empresas e
+              autoridades.
             </p>
 
             <p>
-              Quo explicabo numquam et dolor eius qui possimus voluptatibus. Sit
-              inventore saepe et incidunt libero ut sint voluptate ad omnis
-              iste. Et nostrum distinctio et reiciendis enim qui nulla iste id
-              unde recusandae ut architecto quos! Id esse quia ut modi
-              consequatur ut ducimus corporis id placeat dolorem qui corporis
-              dolor eos iure reprehenderit ut perferendis omnis.
+              Foi assessor jurídico da Associação dos Registradores de Imóveis
+              de São Paulo – ARISP, gerente jurídico do Operador Nacional do
+              Sistema de Registro Eletrônico de Imóveis – ONR, trabalhou com
+              escritórios de renome e assessorou desembargadores e juízes no
+              Tribunal de Justiça do Estado de São Paulo.
             </p>
           </div>
         </div>

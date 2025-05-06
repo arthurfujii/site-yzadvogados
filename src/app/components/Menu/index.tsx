@@ -12,7 +12,7 @@ export function Menu({
   const menuLinks = [
     { href: '/quemsomos', label: 'Quem somos' },
     { href: '/socios', label: 'Sócios' },
-    { href: '/especialidades', label: 'Áreas de especialidade' },
+    { href: '/expertise', label: 'Áreas de expertise' },
     { href: '/contato', label: 'Contato' },
   ];
   return (
