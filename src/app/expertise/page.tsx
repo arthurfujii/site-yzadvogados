@@ -1,30 +1,20 @@
 export default function Especialidades() {
-  const areasAgrupadas = [
-    {
-      title: 'Direito Empresarial',
-      items: [
-        'Contratos',
-        'Societário',
-        'Compliance',
-        'Arbitragem',
-        'Governança corporativa',
-        'M&A, Private Equity e Venture Capital',
-      ],
-    },
-    {
-      title: 'Outras Áreas',
-      items: [
-        'Resolução de disputas e contencioso',
-        'Startups',
-        'Imobiliário',
-        'Legal Due Diligence',
-        'Privacidade e Proteção de dados',
-        'Propriedade intelectual',
-        'Wealth Planning',
-        'Direito Digital',
-        'Terceiro Setor',
-      ],
-    },
+  const areas = [
+    'Contratos',
+    'Societário',
+    'Resolução de disputas e contencioso',
+    'Compliance',
+    'Arbitragem',
+    'Governança corporativa',
+    'M&A, Private Equity e Venture Capital',
+    'Startups',
+    'Imobiliário',
+    'Legal Due Diligence',
+    'Privacidade e Proteção de dados',
+    'Propriedade intelectual',
+    'Wealth Planning',
+    'Direito Digital',
+    'Terceiro Setor',
   ];
 
   return (
@@ -39,19 +29,14 @@ export default function Especialidades() {
         </p>
       </div>
 
-      <div className='flex flex-wrap gap-8'>
-        {areasAgrupadas.map((grupo) => (
-          <div key={grupo.title}>
-            <h4 className='mb-2'>{grupo.title}</h4>
-            <ul className='list-disc pl-5 text-[var(--secondary)]'>
-              {grupo.items.map((item, index) => (
-                <li key={index} className='mb-1'>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className='flex flex-wrap gap-10'>
+        <ul className='list-disc columns-2 gap-15 pl-5 text-lg text-[var(--secondary)]'>
+          {areas.map((area, index) => (
+            <li key={index} className='mb-1'>
+              {area}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

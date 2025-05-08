@@ -25,10 +25,10 @@ export function Menu({
               onClick={onClick}
               href={link.href}
               className={clsx(
-                'font-serif text-lg hover:text-[var(--tertiary)]',
+                'font-serif text-2xl hover:text-[var(--quaternary)]',
                 {
                   ['text-[var(--primary)']: isActive,
-                  ['text-[var(--quaternary)]']: !isActive,
+                  ['text-[var(--tertiary)]']: !isActive,
                 },
               )}
             >

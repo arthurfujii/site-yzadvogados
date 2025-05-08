@@ -16,7 +16,7 @@ export default function Socios() {
             />
           </div>
           <div>
-            <h3>Elthon Yen</h3>
+            <h2>Elthon Yen</h2>
 
             <p>
               Sócio de <strong>Yen Zanetti Advogados</strong>. É mestre em
@@ -54,7 +54,7 @@ export default function Socios() {
             />
           </div>
           <div className='lg:text-right'>
-            <h3>César Zanetti</h3>
+            <h2>César Zanetti</h2>
             <p>
               Sócio de <strong>Yen Zanetti Advogados</strong>, César é graduado
               em Direito pela Universidade Presbiteriana Mackenzie e
