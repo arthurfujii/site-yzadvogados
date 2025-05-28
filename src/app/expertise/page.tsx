@@ -30,7 +30,7 @@ export default function Especialidades() {
       </div>
 
       <div className='flex flex-wrap gap-10'>
-        <ul className='list-disc columns-2 gap-15 pl-5 text-lg text-[var(--secondary)]'>
+        <ul className='list-disc gap-15 pl-5 text-[var(--secondary)] lg:columns-2'>
           {areas.map((area, index) => (
             <li key={index} className='mb-1'>
               {area}

@@ -15,7 +15,7 @@ export default function Socios() {
               className='h-auto w-full'
             />
           </div>
-          <div>
+          <div className='flex flex-col gap-4'>
             <h2>Elthon Yen</h2>
 
             <p>
@@ -53,7 +53,7 @@ export default function Socios() {
               className='h-auto w-full'
             />
           </div>
-          <div className='lg:text-right'>
+          <div className='flex flex-col gap-4 lg:text-right'>
             <h2>César Zanetti</h2>
             <p>
               Sócio de <strong>Yen Zanetti Advogados</strong>, César é graduado

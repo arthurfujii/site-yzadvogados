@@ -78,7 +78,7 @@ export default function Contato() {
             <p>Av. Brig. Faria Lima, 1912 - Pinheiros - São Paulo - SP</p>
             <p>01451-000</p>
           </div>
-          <div className='h-80 w-auto'>
+          <div className='-z-1 h-80 w-auto'>
             <MyMap />
           </div>
         </div>

@@ -10,7 +10,7 @@ export function Menu({
 }) {
   const pathname = usePathname();
   const menuLinks = [
-    { href: '/quemsomos', label: 'Quem somos' },
+    { href: '/', label: 'Princípios' },
     { href: '/socios', label: 'Sócios' },
     { href: '/expertise', label: 'Áreas de expertise' },
     { href: '/contato', label: 'Contato' },
@@ -25,7 +25,7 @@ export function Menu({
               onClick={onClick}
               href={link.href}
               className={clsx(
-                'font-serif text-2xl hover:text-[var(--quaternary)]',
+                'font-serif text-[1.3rem] hover:text-[var(--quaternary)]',
                 {
                   ['text-[var(--primary)']: isActive,
                   ['text-[var(--tertiary)]']: !isActive,
