@@ -15,7 +15,7 @@ export default function Socios() {
               className='h-auto w-full'
             />
           </div>
-          <div>
+          <div className='flex flex-col gap-0.75'>
             <h2>Elthon Yen</h2>
 
             <p>

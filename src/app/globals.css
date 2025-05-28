@@ -24,34 +24,29 @@
 
 body {
   background: var(--background);
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 @layer base {
-  p {
-    font-size: 1.25rem;
-    text-align: justify;
-    text-justify: inter-word;
-  }
   h1 {
     font-family: 'waters-titling-pro', Georgia, serif;
     color: var(--primary);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   h2 {
     font-family: 'waters-titling-pro', Georgia, serif;
     color: var(--primary);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   h3 {
     font-family: 'waters-titling-pro', Georgia, serif;
     color: var(--primary);
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   small {
     color: var(--quaternary);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
