@@ -35,8 +35,8 @@ export default function RootLayout({
       </head>
       <body className={`${lato.variable} `}>
         <Header />
-        <main className='-z-10 container mx-auto flex flex-col justify-between px-10 lg:px-20'>
-          <div className='mt-30 mb-25 flex h-full w-full flex-col gap-10 lg:min-h-[500px]'>
+        <main className='-z-10 container mx-auto flex flex-col justify-between px-15 lg:px-20'>
+          <div className='my-20 flex min-h-[calc(100vh-12rem)] w-full flex-col gap-10'>
             <div className='hidden w-2/7 sm:block'>
               <Logo />
             </div>
@@ -44,7 +44,7 @@ export default function RootLayout({
               <div className='hidden w-2/7 sm:block'>
                 <Menu />
               </div>
-              <div className='mx-auto w-5/7 sm:mr-0 xl:pr-20'>{children}</div>
+              <div className='sm:mr-0 sm:w-5/7 xl:pr-20'>{children}</div>
             </div>
           </div>
           <Footer />
