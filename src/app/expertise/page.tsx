@@ -19,7 +19,7 @@ export default function Especialidades() {
 
   return (
     <div className='flex flex-col gap-10'>
-      <h1 className='sm:hidden'>Áreas de especialidade</h1>
+      <h1 className='sm:hidden'>Áreas de expertise</h1>
       <div>
         <p className='text-[var(--secondary)]'>
           Com atuação especializada, personalizada e de excelência, nosso
