@@ -17,8 +17,6 @@ const Header = () => {
   };
   return (
     <header className='w-full pt-10 sm:hidden'>
-      {/* <div className='absolute left-1/2 z-50 flex w-full -translate-x-1/2 flex-row items-center justify-between p-5'>
-       */}
       <div className='absolute z-50 mx-auto flex items-center justify-between px-15'>
         <div className='max-w-[50%]'>
           <Logo />
