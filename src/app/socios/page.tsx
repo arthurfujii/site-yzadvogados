@@ -5,7 +5,7 @@ import fotoZanetti from '../../../public/images/_UX_0406pb.jpg';
 export default function Socios() {
   return (
     <div className='text-[var(--secondary)]'>
-      <h1 className='pb-10 sm:hidden'>Sócios</h1>
+      <h1 className='pb-5 sm:hidden'>Sócios</h1>
       <div className='flex flex-col gap-15'>
         <div className='flex flex-col gap-5 lg:flex-row'>
           <div className='max-w-[350px] lg:min-w-[200px]'>

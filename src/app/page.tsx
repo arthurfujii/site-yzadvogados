@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className='flex flex-col gap-4 text-[var(--secondary)]'>
-      <h1 className='pb-10 sm:hidden'>Princípios</h1>
+      <h1 className='sm:hidden'>Princípios</h1>
       <p>
         Yen Zanetti Advogados é um escritório full service, com forte atuação
         nas áreas empresarial, societária, cível, imobiliária, compliance e

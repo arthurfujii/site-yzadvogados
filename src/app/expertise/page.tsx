@@ -18,7 +18,7 @@ export default function Especialidades() {
   ];
 
   return (
-    <div className='flex flex-col gap-10'>
+    <div className='flex flex-col gap-5'>
       <h1 className='sm:hidden'>Áreas de expertise</h1>
       <div>
         <p className='text-[var(--secondary)]'>
